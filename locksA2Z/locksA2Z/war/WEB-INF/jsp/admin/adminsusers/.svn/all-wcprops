@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/80/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/adminsusers
+END
+adminAdminsUsers.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/64/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/adminsusers/adminAdminsUsers.jsp
+END
+adminAdminsUsersDelete.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/64/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/adminsusers/adminAdminsUsersDelete.jsp
+END
+adminAdminsUsersEdit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/64/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/adminsusers/adminAdminsUsersEdit.jsp
+END
+adminAdminsUsersAdd.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/80/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/adminsusers/adminAdminsUsersAdd.jsp
+END
+adminAdminsUsersList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/76/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/adminsusers/adminAdminsUsersList.jsp
+END

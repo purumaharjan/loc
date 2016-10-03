@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/82/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/entities
+END
+ShopDetails.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/14/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/entities/ShopDetails.java
+END
+Product.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/54/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/entities/Product.java
+END
+Customer.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/68/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/entities/Customer.java
+END
+Role.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/60/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/entities/Role.java
+END
+EntityBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/14/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/entities/EntityBase.java
+END
+Permission.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/82/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/entities/Permission.java
+END
+Cart.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/64/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/entities/Cart.java
+END
+Category.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/14/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/entities/Category.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/51/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/entities/User.java
+END
+Orders.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/58/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/entities/Orders.java
+END

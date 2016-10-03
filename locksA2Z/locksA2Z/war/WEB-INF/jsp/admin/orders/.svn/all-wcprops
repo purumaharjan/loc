@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/64/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/orders
+END
+adminOrdersProductList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/64/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/orders/adminOrdersProductList.jsp
+END
+adminOrders.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/64/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/orders/adminOrders.jsp
+END
+adminOrdersDelete.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/64/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/orders/adminOrdersDelete.jsp
+END
+adminOrdersList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/64/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/orders/adminOrdersList.jsp
+END

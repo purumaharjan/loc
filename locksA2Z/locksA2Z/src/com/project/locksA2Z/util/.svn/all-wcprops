@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/69/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/util
+END
+ApplicationContextProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/util/ApplicationContextProvider.java
+END
+TaskType.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/11/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/util/TaskType.java
+END
+LoginModelProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/64/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/util/LoginModelProvider.java
+END
+Authority.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/64/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/util/Authority.java
+END
+Pagination.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/69/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/util/Pagination.java
+END
+DaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/54/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/util/DaoFactory.java
+END

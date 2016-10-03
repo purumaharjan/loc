@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/80/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/category
+END
+adminCategory.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/76/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/category/adminCategory.jsp
+END
+addCategory.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/80/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/category/addCategory.jsp
+END
+displayCategory.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/76/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/category/displayCategory.jsp
+END

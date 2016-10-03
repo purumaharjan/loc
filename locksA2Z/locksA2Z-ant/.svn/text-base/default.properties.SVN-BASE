@@ -1,0 +1,23 @@
+project.name=locksA2Z
+
+target.war=locksA2Z.war
+
+deploy.server=localhost
+deploy.port=8080
+deploy.name=${project.name}
+
+#	Please specify the deployment directory of your tomcat server
+tomcat.webapp.dir=C:/apache-tomcat-7.0.6/webapps
+
+#   Please specify the authentication for the manager mode for your tomcat server --- Quite not essential until now
+tomcat.manager.username=tomcat
+tomcat.manager.password=tomcat
+
+#	Please specify the path to your browser installation according to your preference
+firefox.path=C:/Program Files (x86)/Mozilla Firefox/firefox.exe
+ie.path=
+chrome.path=
+safari.path=
+
+#	Here default browser to showup
+browser.path=${firefox.path}

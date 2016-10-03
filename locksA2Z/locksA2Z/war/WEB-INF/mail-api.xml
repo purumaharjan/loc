@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="defaultEncoding" value="UTF-8"/> 
+		<property name="host" value="${mail.host}" />
+		<property name="port" value="${mail.port}" />
+		<property name="javaMailProperties">
+			<props>
+				<prop key="mail.smtp.auth">${mail.enableAuth}</prop>
+				<prop key="mail.smtp.startTLS.enable">${mail.enableStartTLS}</prop>
+				<prop key="mail.smtp.socketFactory.port">${mail.socketFactoryPort}</prop>
+				<prop key="mail.smtp.socketFactory.class">${mail.socketFactoryClass}</prop>
+			</props>
+		</property>
+		<property name="username" value="${mail.username}"/>
+		<property name="password" value="${mail.password}" />
+	</bean>
+
+	<bean id="mailAspect" class="com.project.locksA2Z.server.mail.MailAspect">
+		<property name="mailSender" ref="mailSender" />
+		<property name="velocityEngine" ref="velocityEngine" />
+	</bean>
+
+	<bean id="velocityEngine"
+		class="org.springframework.ui.velocity.VelocityEngineFactoryBean">
+		<property name="resourceLoaderPath" value="classpath:com/project/locksA2Z/server/mail/template/" />
+	</bean>
+
+</beans>

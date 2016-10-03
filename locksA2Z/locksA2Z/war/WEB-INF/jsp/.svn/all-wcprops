@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/84/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp
+END
+login.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/30/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/login.jsp
+END
+pagination.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/50/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/pagination.jsp
+END
+registration.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/79/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/registration.jsp
+END
+registerConfirmed.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/74/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/registerConfirmed.jsp
+END
+unauthorizedAccess.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/53/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/unauthorizedAccess.jsp
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/84/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/roles
+END
+adminRolesAdd.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/84/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/roles/adminRolesAdd.jsp
+END
+adminRolesList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/78/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/roles/adminRolesList.jsp
+END
+adminRoles.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/64/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/roles/adminRoles.jsp
+END
+adminRolesDelete.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/64/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/roles/adminRolesDelete.jsp
+END
+adminRolesEdit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/64/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/roles/adminRolesEdit.jsp
+END

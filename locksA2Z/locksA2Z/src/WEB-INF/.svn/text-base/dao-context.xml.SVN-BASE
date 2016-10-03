@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<bean id="abstractDao" class="com.project.locksA2Z.server.dao.base.AbstractDao">
+		<constructor-arg ref="jpaTemplate" />
+	</bean>
+	<bean id="userDao" class="com.project.locksA2Z.server.dao.impl.UserDaoImpl" parent="abstractDao" />
+
+	<bean id="roleDao" class="com.project.locksA2Z.server.dao.impl.RoleDaoImpl" parent="abstractDao" />
+
+	<bean id="permissionDao" class="com.project.locksA2Z.server.dao.impl.PermissionDaoImpl" parent="abstractDao" />
+
+	<bean id="categoryDao" class="com.project.locksA2Z.server.dao.impl.CategoryDaoImpl" parent="abstractDao" />
+
+	<bean id="productDao" class="com.project.locksA2Z.server.dao.impl.ProductDaoImpl" parent="abstractDao" />
+
+	<bean id="inventoryDao" class="com.project.locksA2Z.server.dao.impl.InventoryDaoImpl" parent="abstractDao" />
+
+	<bean id="ordersDao" class="com.project.locksA2Z.server.dao.impl.OrdersDaoImpl" parent="abstractDao" />
+
+	<bean id="customerDao" class="com.project.locksA2Z.server.dao.impl.CustomerDaoImpl" parent="abstractDao" />
+
+</beans>

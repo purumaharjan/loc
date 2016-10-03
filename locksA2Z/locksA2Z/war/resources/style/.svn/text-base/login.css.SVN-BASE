@@ -1,0 +1,185 @@
+@CHARSET "ISO-8859-1";
+
+.body {
+	font-family: Arial, Helvetica, sans-serifArial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	margin: 0px;
+	padding: 0px;
+	background-image: url('../images/body_bg.gif');
+	background-repeat: repeat-x;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+.wrapper {
+	width: 943px;
+	margin: 0px auto;
+	text-align: left;
+}
+
+a:link {
+	color: #999999;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #999999;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #999999;
+	text-decoration: underline;
+}
+
+.loginHeader {
+	margin: 0px;
+	padding: 0px;
+	height: 169px;
+	background-image: url('../images/body_bg.gif');
+	background-repeat: repeat-x;
+}
+
+.loginContainer {
+	background-image: url('../images/login_bg.gif');
+	width: 496px;
+	height: 331px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.registerContainer {
+	margin: 0 auto;
+	text-align: left;
+}
+
+.loginText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	width: 330px;
+	margin-left: 60px;
+	padding: 80px 0px 5px 50px;
+	border-bottom: 1px #999999 solid;
+}
+
+.logoutText {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #393;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.username {
+	margin-top: 20px;
+	padding: 0px;
+	height: 28px;
+}
+
+.password {
+	clear: both;
+	padding-top: 10px;
+	margin-top: 10px;
+	height: 28px;
+}
+
+.submit {
+	clear: both;
+	padding-left: 150px;
+	padding-top: 10px;
+}
+
+.forgetRememberRegisterContainer {
+	height: 28px;
+	margin-top: 10px;
+	width: 370px;
+	margin-left: 60px;
+}
+
+.forgotPassword {
+	float: left;
+	background-image: url('../images/icon_forget.gif');
+	background-repeat: no-repeat;
+	height: 30px;
+	margin-left: 15px;
+	padding-top: 5px;
+}
+
+.register {
+	background-image: url('../images/icon_register.gif');
+	background-repeat: no-repeat;
+	height: 30px;
+	margin-left: 255px;
+	padding-top: 5px;
+}
+
+.forgotPassword a {
+	margin-left: 35px;
+}
+
+.register a {
+	margin-left: 35px;
+}
+
+.labelTxtBox {
+	float: left;
+	width: 70px;
+	margin-left: 70px;
+	padding-top: 6px;
+}
+.registerLabelTxtBox{
+	float: left;
+	width: 155px;
+	margin-left: 70px;
+	padding-top: 6px;
+}
+
+.userCheckBox {
+	float: left;
+}
+
+.label {
+	margin-right: 5px;
+}
+
+.textbox {
+	float: left;
+	background-image: url('../images/input_box.gif');
+	width: 278px;
+	height: 28px;
+}
+
+.textbox input {
+	background-color: #FAFAFA;
+	border-style: none;
+	font-size: 11px;
+	margin: 6px 0px 0px 15px;
+	padding: 0px 0px 0px 0px;
+	width: 250px;
+}
+
+.submit input {
+	background-image: url('../images/submit_btn.gif');
+	width: 123px;
+	height: 31px;
+	border-style: none;
+	cursor: pointer;
+}
+
+.text
+.loginButton {
+	margin-left: 70px;
+}
+
+.footer {
+	border-top: 1px solid #9E9E9E;
+	width: 610px;
+	margin: 0 auto;
+	padding: 10px;
+	margin-top: 25px;
+	text-align: center;
+}

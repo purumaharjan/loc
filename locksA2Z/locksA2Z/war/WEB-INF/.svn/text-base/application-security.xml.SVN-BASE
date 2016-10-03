@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:beans="http://www.springframework.org/schema/beans"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/security
+						http://www.springframework.org/schema/security/spring-security-3.0.xsd">
+	
+	<beans:import resource="classpath:/WEB-INF/dao-context.xml"/>
+	
+	<http auto-config="true">
+		<form-login login-page="/login.htm" login-processing-url="/j_spring_security_check" />
+		<logout invalidate-session="true" logout-success-url="/logout.htm" logout-url="/logout"/> 
+		<intercept-url pattern="/admin/**" access="ROLE_Admins" />
+		<intercept-url pattern="/cart*" access="ROLE_RegisteredUser" />
+		<intercept-url pattern="/**" />
+	</http>
+	
+	<authentication-manager alias="authenicationManager">
+		<authentication-provider user-service-ref="userDao" >
+		</authentication-provider>
+	</authentication-manager>	
+</beans:beans>

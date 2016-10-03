@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/78/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/web/Validators
+END
+RegistrationValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/68/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/web/Validators/RegistrationValidator.java
+END
+CategoryValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/76/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/web/Validators/CategoryValidator.java
+END
+UserValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/78/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/web/Validators/UserValidator.java
+END
+ProductValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/76/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/web/Validators/ProductValidator.java
+END
+RoleValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/78/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/web/Validators/RoleValidator.java
+END

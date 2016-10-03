@@ -1,0 +1,4 @@
+jpa.datasource.driverclass=com.mysql.jdbc.Driver
+jpa.datasource.url=jdbc:mysql://localhost/locksa2z
+jpa.datasource.username=root
+jpa.datasource.password=root

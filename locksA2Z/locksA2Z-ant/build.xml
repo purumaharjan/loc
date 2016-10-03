@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="locksA2Z-ant" basedir="../" xmlns:artifact="antlib:org.apache.maven.artifact.ant">
+
+	<property name="ant.module" value="locksA2Z-ant" />
+	<property file="${ant.module}/default.properties" />
+	<property file="${ant.module}/custom.properties" />
+
+	<artifact:pom id="dependency.pom" file="${ant.module}/pom.xml" />
+	<artifact:dependencies filesetId="project.dependencies" pomRefId="dependency.pom" pathId="dependency.classpath" versionsId="dependency.versions" />
+
+	<property name="classes.dir" value="${project.name}/bin/classes" />
+	<property name="webcontent.dir" value="${project.name}/war" />
+
+	<property name="application.url" value="http://${deploy.server}:${deploy.port}/${deploy.name}/" />
+
+	<target name="clean" description="cleaning up all generated files">
+		<delete dir="${classes.dir}" />
+	</target>
+
+	<target name="init">
+		<mkdir dir="${classes.dir}" />
+		<mkdir dir="${classes.dir}/WEB-INF" />
+		<mkdir dir="${classes.dir}/META-INF" />
+		<mkdir dir="${project.name}/lib" />
+		<mkdir dir="${project.name}/deploy" />
+		<mkdir dir="${webcontent.dir}/WEB-INF/lib" />
+
+		<copy todir="${webcontent.dir}/WEB-INF/lib">
+			<fileset refid="project.dependencies" />
+			<mapper classpathref="dependency.classpath" classname="org.apache.maven.artifact.ant.VersionMapper" from="${dependency.versions}" to="flatten" />
+		</copy>
+
+		<copy todir="${project.name}/lib">
+			<fileset refid="project.dependencies" />
+			<mapper classpathref="dependency.classpath" classname="org.apache.maven.artifact.ant.VersionMapper" from="${dependency.versions}" to="flatten" />
+		</copy>
+	</target>
+
+	<target name="compile" depends="clean,init">
+		<echo message="#Compiling java files" />
+		<javac destdir="${classes.dir}" debug="on" nowarn="off" memorymaximumsize="128m" fork="true">
+			<classpath refid="dependency.classpath" />
+			<src path="${project.name}/src" />
+			<compilerarg line="-encoding UTF-8 -Xlint:all -Xlint:-path" />
+		</javac>
+		<copydir dest="${classes.dir}/WEB-INF" src="${project.name}/src/WEB-INF"></copydir>
+		<copydir dest="${classes.dir}/META-INF" src="${project.name}/src/META-INF"></copydir>
+		<copy todir="${classes.dir}/" file="${project.name}/src/log4j.xml" />
+	</target>
+
+	<target name="war" depends="compile" description="create a war file">
+		<delete file="${project.name}/deploy/${target.war}" />
+		<war destfile="${project.name}/deploy/${target.war}" duplicate="preserve" webxml="${webcontent.dir}/WEB-INF/web.xml">
+			<fileset dir="${webcontent.dir}" />
+			<classes dir="${classes.dir}" />
+			<lib dir="${webcontent.dir}/WEB-INF/lib" />
+		</war>
+	</target>
+
+	<!--
+		The following script is Window specific(@see its execution command below)
+		TODO: make this generic or apply 'OS' conditions
+	-->
+
+	<property name="tomcat.manager.url" value="http://${deploy.server}:${deploy.port}/manager" />
+
+	<taskdef name="deploy" classname="org.apache.catalina.ant.DeployTask" />
+	<taskdef name="list" classname="org.apache.catalina.ant.ListTask" />
+	<taskdef name="reload" classname="org.apache.catalina.ant.ReloadTask" />
+	<taskdef name="resources" classname="org.apache.catalina.ant.ResourcesTask" />
+	<taskdef name="roles" classname="org.apache.catalina.ant.RolesTask" />
+	<taskdef name="start" classname="org.apache.catalina.ant.StartTask" />
+	<taskdef name="stop" classname="org.apache.catalina.ant.StopTask" />
+	<taskdef name="undeploy" classname="org.apache.catalina.ant.UndeployTask" />
+
+	<target name="start" description="Start Web Application in Server">
+		<start url="${tomcat.manager.url}" username="${tomcat.manager.username}" password="${tomcat.manager.password}" path="/${deploy.name}" />
+	</target>
+
+	<target name="stop" description="Stop Web Application in Server">
+		<stop url="${tomcat.manager.url}" username="${tomcat.manager.username}" password="${tomcat.manager.password}" path="/${deploy.name}" />
+	</target>
+
+	<!--
+			Temporary Solution >> Working on the final Solution through catalina-ant
+	-->
+	<target name="deploy" description="Deploy by copying to webapps directory" >
+		<copy todir="${tomcat.webapp.dir}" file="${project.name}/deploy/${target.war}" />
+	</target>
+	
+	<target name="undeploy" description="UnInstall Web Application from tomcat">
+		<undeploy url="${tomcat.manager.url}" username="${tomcat.manager.username}" password="${tomcat.manager.password}" path="/${deploy.name}" />
+	</target>
+
+
+	<target name="run.in.browser" description="run the webapp in browser" >
+		<echo>
+			Opening ${application.url} in ${browser.path}
+		</echo>
+		<exec executable="${browser.path}" spawn="true">
+			<arg value="${application.url}" />
+		</exec>
+	</target>
+</project>

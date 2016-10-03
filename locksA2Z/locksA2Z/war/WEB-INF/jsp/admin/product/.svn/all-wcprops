@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/81/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/product
+END
+displayProduct.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/76/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/product/displayProduct.jsp
+END
+adminProduct.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/64/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/product/adminProduct.jsp
+END
+addProduct.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/79/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/product/addProduct.jsp
+END
+displayProductDetails.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/81/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/product/displayProductDetails.jsp
+END

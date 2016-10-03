@@ -1,0 +1,10 @@
+<html>
+<body>
+<h3>Hi ${customer.username}, welcome to the LocksA2Z!</h3>
+
+<div>
+   Your email address is <a href="mailto:${customer.email}">${customer.email}</a>.
+</div>
+</body>
+
+</html>

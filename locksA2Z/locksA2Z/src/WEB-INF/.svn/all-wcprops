@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/60/trunk/locksA2Z/locksA2Z/src/WEB-INF
+END
+dao-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/54/trunk/locksA2Z/locksA2Z/src/WEB-INF/dao-context.xml
+END
+jpa-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/60/trunk/locksA2Z/locksA2Z/src/WEB-INF/jpa-context.xml
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/76/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/inventory
+END
+adminInventory.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/67/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/inventory/adminInventory.jsp
+END
+adminInventoryList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/76/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/inventory/adminInventoryList.jsp
+END
+editInventory.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/64/trunk/locksA2Z/locksA2Z/war/WEB-INF/jsp/admin/inventory/editInventory.jsp
+END

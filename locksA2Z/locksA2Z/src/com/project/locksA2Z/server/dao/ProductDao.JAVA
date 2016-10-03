@@ -1,0 +1,11 @@
+package com.project.locksA2Z.server.dao;
+
+import java.util.List;
+
+import com.project.locksA2Z.server.entities.Category;
+import com.project.locksA2Z.server.entities.Product;
+
+public interface ProductDao extends IAbstractDao<Product>{
+	public List<Category> getAllProductCategoryId();
+	public List<Product> getWithCategoryId(Long id);	
+}

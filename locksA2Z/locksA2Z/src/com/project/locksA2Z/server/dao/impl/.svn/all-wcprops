@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/69/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/dao/impl
+END
+CategoryDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/69/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/dao/impl/CategoryDaoImpl.java
+END
+InventoryDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/58/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/dao/impl/InventoryDaoImpl.java
+END
+OrdersDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/64/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/dao/impl/OrdersDaoImpl.java
+END
+UserDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/60/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/dao/impl/UserDaoImpl.java
+END
+ProductDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/64/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/dao/impl/ProductDaoImpl.java
+END
+RoleDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/60/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/dao/impl/RoleDaoImpl.java
+END
+CustomerDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/64/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/dao/impl/CustomerDaoImpl.java
+END
+PermissionDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/51/trunk/locksA2Z/locksA2Z/src/com/project/locksA2Z/server/dao/impl/PermissionDaoImpl.java
+END

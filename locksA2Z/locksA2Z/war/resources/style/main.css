@@ -1,0 +1,276 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: Arial, Helvetica, sans-serifArial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/body_bg.gif);
+	background-repeat: repeat-x;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+a:link {
+	color: #999999;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #999999;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #999999;
+	text-decoration: underline;
+}
+
+.clear {
+	clear: : both;
+}
+
+td {
+	font-size: 11px;
+}
+
+.wrapper {
+	width: 943px;
+	margin: 0px auto;
+}
+
+.header {
+	margin: 0px;
+	padding: 0px;
+	height: 169px;
+}
+
+.headerleft {
+	float: left;
+	width: 690px;
+	height: 169px;
+	background-image: url(../images/body_bg.gif);
+	background-repeat: repeat-x;
+}
+
+.header_right {
+	float: left;
+	width: 44px;
+	height: 31px;
+	margin-top: 139px;
+	background-image: url(../images/bodycontain_bg.gif);
+	background-position: right;
+}
+
+.logoPart {
+	margin-top: 12px;
+	height: 91px;
+	margin-bottom: 36px;
+}
+
+.logo {
+	float: left;
+	width: 174px;
+}
+
+.banner {
+	float: left;
+	width: 516px;
+	height: 91px;
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+}
+
+.header_shadow {
+	clear: both;
+	background-image: url(../images/bodycontain_bg.gif);
+	background-repeat: repeat-y;
+	height: 31px;
+}
+
+.adminHeader {
+	margin: 0px;
+	padding: 0px;
+	height: 169px;
+	background-image: url('../images/body_bg.gif');
+	background-repeat: repeat-x;
+}
+
+.topmenu {
+	margin-top: 107px;
+	text-align: right;
+}
+
+.topmenu a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.clear {
+	clear: : both;
+}
+
+.login {
+	float: left;
+	background-image: url(../images/key_bg.jpg);
+	background-repeat: no-repeat;
+	width: 208px;
+	height: 169px;
+	color: #FFF;
+	font-size: 11px;
+}
+
+.login_box {
+	padding-left: 32px;
+	position: top;
+}
+
+.login_box input {
+	border: 1px #000 solid;
+	height: 20px;
+	width: 95px;
+	margin: 2px;
+}
+
+.login_box .username {
+	margin: 40px 0px 0px 0px;
+	padding: 2px;
+}
+
+.login_box .remain_box {
+	float: left;
+	width: 100px;
+	height: 42px;
+	margin-top: 5px;
+	text-align: right;
+	padding-right: 15px;
+}
+
+.login_box .go_btn {
+	float: left;
+	width: 27px;
+	height: 42px;
+	margin-top: 8px;
+	background-image: url(../images/go_btn.gif);
+	background-repeat: no-repeat;
+	border: none;
+}
+
+.login_box .remain_box  a {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.content {
+	background-image: url(../images/bodycontain_bg.gif);
+	background-repeat: repeat-y;
+	height: 44px;
+}
+
+.content_left {
+	float: left;
+	width: 300px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+.content_right {
+	float: left;
+	width: 642px;
+}
+
+.content_nav {
+	padding: 0px;
+	margin: 0px;
+}
+
+.content_slide {
+	float: left;
+	width: 165px;
+	margin-right: 35px;
+}
+
+.content_slide .img {
+	border: 0px;
+}
+
+.content_slide .content {
+	padding: 0px 10px 5px 10px;
+}
+
+.content_slide .title {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.content_slide .more {
+	border: 0px;
+	padding: 0px 0px 5px 10px;
+}
+
+.content_footer {
+	clear: both;
+	background-image: url(../images/shadow_footer.gif);
+	background-repeat: no-repeat;
+	height: 25px;
+}
+
+.footer {
+	border-top: 1px solid #9E9E9E;
+	width: 610px;
+	margin: 25px 0px 20px 300px;
+	padding: 10px;
+}
+
+.footer a {
+	color: #333333;
+	text-decoration: none;
+	padding: 0px 3px;
+}
+
+.footer a:hover {
+	color: #333333;
+	text-decoration: underline;
+	padding: 0px 3px;
+}
+
+.main_menu {
+	background-image: url(../images/dot.gif);
+	background-repeat: repeat-x;
+	height: 24px;
+	font-size: 12px;
+	font-weight: bold;
+	width: 240px;
+	padding-top: 3px;
+	margin-top: 3px;
+}
+
+.main_menu  a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.sub_menu {
+	background-image: url(../images/dot.gif);
+	width: 230px;
+	height: 20px;
+	margin: 0px 0px 0px 0px;
+	background-position: bottom;
+	padding: 3px 0px 0px 10px;
+}
+
+.sub_menu  a {
+	color: #333333;
+	text-decoration: none;
+	background-image: url(../images/sub_arrow.gif);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+}
+
+.sub_menu  a:hover {
+	color: #333333;
+	text-decoration: none;
+	background-color: #F4F4F4;
+	display: block;
+}

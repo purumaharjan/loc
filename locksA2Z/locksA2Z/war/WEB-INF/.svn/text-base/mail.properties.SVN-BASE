@@ -1,0 +1,11 @@
+mail.host=smtp.gmail.com
+mail.port=465
+
+mail.enableAuth=true
+mail.enableStartTLS=true
+
+mail.username=fake537@gmail.com
+mail.password=sabbir537
+
+mail.socketFactoryPort=465
+mail.socketFactoryClass=javax.net.ssl.SSLSocketFactory
